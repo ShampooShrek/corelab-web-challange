@@ -11,7 +11,7 @@
 1. **Configure as variáveis de ambiente**
 ```bash
 NEXT_PUBLIC_API_URL=http://localhost:3001
-
+```
 3. **Instale as dependencias**
 ```bash
 pnpm install
