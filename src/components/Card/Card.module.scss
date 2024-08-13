@@ -1,0 +1,31 @@
+@import "@/styles/variables.scss";
+@import "@/styles/break-points.scss";
+@import "@/styles/colors.scss";
+
+.container {
+  width: 100%;
+  height: $card-height;
+  border-radius: $card-radius;
+  background-color: $card-bg;
+  color: $card-text-color;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+    svg {
+      cursor: pointer;
+      width: $card-icon-width;
+      height: $card-icon-height;
+    }
+
+  }
+}
+
+.favorite {
+  box-shadow: $card-shadow;
+}
+
+@include colors;
